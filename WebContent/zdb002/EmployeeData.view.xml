@@ -1,0 +1,17 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="zdb002.EmployeeData" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title">
+		<content>
+		   <VBox binding="{/0}">
+		     <items>
+		         <Label text="Name"/>
+		         <Text text="{name}"/>
+		         <Label text="Role"/>
+		         <Text text="{/0/role}"/>
+		         <Label text="Department"/>
+		         <Text text="{dept}"/>
+	         </items>
+	       </VBox>  
+		</content>
+	</Page>
+</core:View>
